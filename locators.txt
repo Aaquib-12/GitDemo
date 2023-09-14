@@ -1,0 +1,39 @@
+Basic Locators:
+AMAZON(locators/ searchbox)
+1. Id : By.id("twotabsearchtextbox");
+2. name : By.name("field-keywords");
+3. class : By.className("nav-input nav-progressive-attribute");
+4. linktext : By.linktext("Today's Deals");
+
+
+
+
+
+Advanced
+1. Xpath
+2. CSS
+
+Get all buttons/all links
+
+1. tagname
+
+
+
+Flipkart(locators/ searchbox)
+1. Id : By 
+2. name : By.name("q");
+3. class :By.className("_3704LK"); 
+4. linktext : By.linktext("Top Offers");
+
+
+Ebay(locators/ searchbox)
+1. Id : By.id("gh-ac");
+2. name : By.name("_nkw");
+3. class :By.className("gh-tb ui-autocomplete-input");
+4. linktext
+
+
+
+xpath with single atrribute
+
+//tagname[@attribute = 'value']

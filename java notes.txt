@@ -1,0 +1,35 @@
+Basic Java Program Structure
+
+
+class Bhagya
+{
+public static void main(String args[])
+{
+System.out.println("Welcome to Selenium class”);
+}
+}
+
+Above Sample Program Giving instruction to the System that Display Welcome to Selenium Class
+System Will not understand a Program Which is written in English
+It is understandable by only humans that language we called as Highlevel Language
+Therefore the task is converting high level language to Low Level Language i.e system understandable language
+
+To get System understandable file We need to compile the Program: Compiling a Java program means taking the programmer-readable text in your program file (also called source code) and converting it to bytecodes, which are platform-independent instructions for the Java VM. Command to Compile Program: javac filename.java A program has to be converted to a form the Java VM can understand so any computer with a Java VM can interpret and run the program. Once your program successfully compiles into Java bytecodes, you can interpret(translate) and run applications on any Java VM.
+
+Steps to Compile, Execute Program
+1. Save Java file (source code)with any name with .java extension
+2. Open cmd and navigate to the place where Source code is saved
+3. To compile program: javac filename.java
+4. During Compilation Will come to know about grammer errors or syntax error
+5. If no syntax error will get .class file (system understable file)
+6. To Run the Program: java Classname
+7. If no semantic errors will get Output otherwise will se logical errors or semantic errors
+
+Explanation:
+Class: class is a collection of features and functionalities, or class is blue print or collection of Objects
+Rules to write Classname
+? Class name must start with alphabets: uppercase valid ,lower case warning
+? Should not start with numbers or special characters
+? Should not contain spaces
+
+Object: A Java object is a member (also called an instance) of a Java class. Each object has an identity, a behavior and a state. The state of an object is stored in fields (variables), while methods (functions) display the object's behaviour. Objects are created at runtime from templates, which are also known as classes. Public: It is an Access modifier, which specifies from where and who can access the method. Making the main() method public makes it globally available. It is made public so that JVM can invoke it from outside the class as it is not present in the current class. Static: It is a keyword which is when associated with a method, makes it a class related method.
