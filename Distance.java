@@ -15,6 +15,11 @@ public class Distance {
 		System.out.println("Inches :" + inch);
 		System.out.println("Feet:" + ft);
 	}
-
+	public static void main2(String[] args) {
+		
+		float km = 1500f;
+		float m = km * 100f;
+		System.out.println("Metre :" + m);
+	}
 }
 
