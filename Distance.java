@@ -21,5 +21,12 @@ public class Distance {
 		float m = km * 100f;
 		System.out.println("Metre :" + m);
 	}
+public static void main3(String[] args) {
+		
+		float km = 1500f;
+		float m = km * 100f;
+		float cm = m * 100f;
+		System.out.println("Metre :" + m);
+		System.out.println("Centimetres :" + cm );
 }
-
+}
